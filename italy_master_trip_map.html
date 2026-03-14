@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_63903498d22a2bca504086f9d4c7825e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_63903498d22a2bca504086f9d4c7825e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_63903498d22a2bca504086f9d4c7825e = L.map(
+                "map_63903498d22a2bca504086f9d4c7825e",
+                {
+                    center: [43.0, 12.5],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_316350456c980f525dac7905748bae6e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_316350456c980f525dac7905748bae6e.addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var marker_4a78a3a78051965d679d4316825daf29 = L.marker(
+                [43.7687, 11.2531],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_89d0f15893854ed9ed89856819957946 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5e74e16aac995037408f3b0ffcd6551 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f18898e7363c5b7640c7c94a77d6fd00 = $(`<div id="html_f18898e7363c5b7640c7c94a77d6fd00" style="width: 100.0%; height: 100.0%;">Hotel degli Orafi – Florence</div>`)[0];
+                popup_b5e74e16aac995037408f3b0ffcd6551.setContent(html_f18898e7363c5b7640c7c94a77d6fd00);
+            
+        
+
+        marker_4a78a3a78051965d679d4316825daf29.bindPopup(popup_b5e74e16aac995037408f3b0ffcd6551)
+        ;
+
+        
+    
+    
+            marker_4a78a3a78051965d679d4316825daf29.bindTooltip(
+                `<div>
+                     Hotel degli Orafi – Florence
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4a78a3a78051965d679d4316825daf29.setIcon(icon_89d0f15893854ed9ed89856819957946);
+            
+    
+            var marker_8d2e90c59590c52edd5c842c00f6e1ea = L.marker(
+                [43.4666, 11.4333],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_176e427535d0d6ef5319cbc4e7c41cf0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7870764957ae0d6c29d746c917b76266 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6c2be74c861318abfd00ff7bde8f3216 = $(`<div id="html_6c2be74c861318abfd00ff7bde8f3216" style="width: 100.0%; height: 100.0%;">Castello di Spaltenna – Chianti</div>`)[0];
+                popup_7870764957ae0d6c29d746c917b76266.setContent(html_6c2be74c861318abfd00ff7bde8f3216);
+            
+        
+
+        marker_8d2e90c59590c52edd5c842c00f6e1ea.bindPopup(popup_7870764957ae0d6c29d746c917b76266)
+        ;
+
+        
+    
+    
+            marker_8d2e90c59590c52edd5c842c00f6e1ea.bindTooltip(
+                `<div>
+                     Castello di Spaltenna – Chianti
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8d2e90c59590c52edd5c842c00f6e1ea.setIcon(icon_176e427535d0d6ef5319cbc4e7c41cf0);
+            
+    
+            var marker_bc4893583f054a3b452782afe6145c9f = L.marker(
+                [40.6329, 14.367],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_17ebad52ae7b56098022ec0e200ceef6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_00c78efe3edbf4a401ae217148bebf61 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efc731577544becccfb36259fb45414c = $(`<div id="html_efc731577544becccfb36259fb45414c" style="width: 100.0%; height: 100.0%;">Hotel La Tonnarella – Sorrento</div>`)[0];
+                popup_00c78efe3edbf4a401ae217148bebf61.setContent(html_efc731577544becccfb36259fb45414c);
+            
+        
+
+        marker_bc4893583f054a3b452782afe6145c9f.bindPopup(popup_00c78efe3edbf4a401ae217148bebf61)
+        ;
+
+        
+    
+    
+            marker_bc4893583f054a3b452782afe6145c9f.bindTooltip(
+                `<div>
+                     Hotel La Tonnarella – Sorrento
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bc4893583f054a3b452782afe6145c9f.setIcon(icon_17ebad52ae7b56098022ec0e200ceef6);
+            
+    
+            var marker_ee20f7ef4c09e033923712c4d96c259c = L.marker(
+                [41.8955, 12.4875],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_530f50eb95f283ba40e84ee94cb47592 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_07425df2893b7efb13010622564deb92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1c6a1882d50505d7cd50acdd095c5d67 = $(`<div id="html_1c6a1882d50505d7cd50acdd095c5d67" style="width: 100.0%; height: 100.0%;">Inn at the Roman Forum – Rome</div>`)[0];
+                popup_07425df2893b7efb13010622564deb92.setContent(html_1c6a1882d50505d7cd50acdd095c5d67);
+            
+        
+
+        marker_ee20f7ef4c09e033923712c4d96c259c.bindPopup(popup_07425df2893b7efb13010622564deb92)
+        ;
+
+        
+    
+    
+            marker_ee20f7ef4c09e033923712c4d96c259c.bindTooltip(
+                `<div>
+                     Inn at the Roman Forum – Rome
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee20f7ef4c09e033923712c4d96c259c.setIcon(icon_530f50eb95f283ba40e84ee94cb47592);
+            
+    
+            var marker_70e970b50775440a24a10624bd5c248e = L.marker(
+                [43.81, 11.2051],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_05980560aab271218d41f5d8d0bca027 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "plane",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_618be6832fe7232ed9669bf83b8d2a10 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_61872b8a36dbb1dcc6de82ec4e0dcf05 = $(`<div id="html_61872b8a36dbb1dcc6de82ec4e0dcf05" style="width: 100.0%; height: 100.0%;">Florence Airport (FLR)</div>`)[0];
+                popup_618be6832fe7232ed9669bf83b8d2a10.setContent(html_61872b8a36dbb1dcc6de82ec4e0dcf05);
+            
+        
+
+        marker_70e970b50775440a24a10624bd5c248e.bindPopup(popup_618be6832fe7232ed9669bf83b8d2a10)
+        ;
+
+        
+    
+    
+            marker_70e970b50775440a24a10624bd5c248e.bindTooltip(
+                `<div>
+                     Florence Airport (FLR)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_70e970b50775440a24a10624bd5c248e.setIcon(icon_05980560aab271218d41f5d8d0bca027);
+            
+    
+            var marker_560059c3c3b6a139567143513f6c2326 = L.marker(
+                [40.8518, 14.2727],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_0eba124ee1f5a5d63863e7c5a3ab9d43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "train",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b1f2895180adc6b67b0b2eb3f48f2429 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d9f9eb41a7fcea11fe6ed724e69fbf5 = $(`<div id="html_1d9f9eb41a7fcea11fe6ed724e69fbf5" style="width: 100.0%; height: 100.0%;">Naples Centrale Station</div>`)[0];
+                popup_b1f2895180adc6b67b0b2eb3f48f2429.setContent(html_1d9f9eb41a7fcea11fe6ed724e69fbf5);
+            
+        
+
+        marker_560059c3c3b6a139567143513f6c2326.bindPopup(popup_b1f2895180adc6b67b0b2eb3f48f2429)
+        ;
+
+        
+    
+    
+            marker_560059c3c3b6a139567143513f6c2326.bindTooltip(
+                `<div>
+                     Naples Centrale Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_560059c3c3b6a139567143513f6c2326.setIcon(icon_0eba124ee1f5a5d63863e7c5a3ab9d43);
+            
+    
+            var marker_a84d3b0f7d25259c1ff35184961d9a0d = L.marker(
+                [41.901, 12.5018],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_4bdd25b46b51ba94c1b3f1b3c28e7f24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "train",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_468c1783e46f6303c95116bcd5ad8140 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff80ec7c1a2b1e38566ff9aa1962357c = $(`<div id="html_ff80ec7c1a2b1e38566ff9aa1962357c" style="width: 100.0%; height: 100.0%;">Rome Termini Station</div>`)[0];
+                popup_468c1783e46f6303c95116bcd5ad8140.setContent(html_ff80ec7c1a2b1e38566ff9aa1962357c);
+            
+        
+
+        marker_a84d3b0f7d25259c1ff35184961d9a0d.bindPopup(popup_468c1783e46f6303c95116bcd5ad8140)
+        ;
+
+        
+    
+    
+            marker_a84d3b0f7d25259c1ff35184961d9a0d.bindTooltip(
+                `<div>
+                     Rome Termini Station
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a84d3b0f7d25259c1ff35184961d9a0d.setIcon(icon_4bdd25b46b51ba94c1b3f1b3c28e7f24);
+            
+    
+            var marker_ee7d4bbbdc79c1c3a6b470bb48bf9b80 = L.marker(
+                [43.7761, 11.2586],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_f2bc0412bb20445732de39186e80fc65 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0fde084a6ae178cf3db3189fd7765cd7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_962f38d5ff1747619b59dfa29970d1bd = $(`<div id="html_962f38d5ff1747619b59dfa29970d1bd" style="width: 100.0%; height: 100.0%;">Accademia Gallery</div>`)[0];
+                popup_0fde084a6ae178cf3db3189fd7765cd7.setContent(html_962f38d5ff1747619b59dfa29970d1bd);
+            
+        
+
+        marker_ee7d4bbbdc79c1c3a6b470bb48bf9b80.bindPopup(popup_0fde084a6ae178cf3db3189fd7765cd7)
+        ;
+
+        
+    
+    
+            marker_ee7d4bbbdc79c1c3a6b470bb48bf9b80.bindTooltip(
+                `<div>
+                     Accademia Gallery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ee7d4bbbdc79c1c3a6b470bb48bf9b80.setIcon(icon_f2bc0412bb20445732de39186e80fc65);
+            
+    
+            var marker_7995ac509f7109a86d136c0f3eac3899 = L.marker(
+                [43.7678, 11.2553],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_baca1ea08f6da7cdecd64b6bd8e17c88 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c00b905e9fddaa6680035c1134e0000b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c473cc380abe69854770c9e246c30dfb = $(`<div id="html_c473cc380abe69854770c9e246c30dfb" style="width: 100.0%; height: 100.0%;">Uffizi Gallery</div>`)[0];
+                popup_c00b905e9fddaa6680035c1134e0000b.setContent(html_c473cc380abe69854770c9e246c30dfb);
+            
+        
+
+        marker_7995ac509f7109a86d136c0f3eac3899.bindPopup(popup_c00b905e9fddaa6680035c1134e0000b)
+        ;
+
+        
+    
+    
+            marker_7995ac509f7109a86d136c0f3eac3899.bindTooltip(
+                `<div>
+                     Uffizi Gallery
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7995ac509f7109a86d136c0f3eac3899.setIcon(icon_baca1ea08f6da7cdecd64b6bd8e17c88);
+            
+    
+            var marker_0869b5a15301fa872a877233f137fb97 = L.marker(
+                [43.3188, 11.3308],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_56ed4e1fa49dea0cf66f506e7dfdf4af = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1874072298547e83a0df0dcee8d53be3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_52d004f2ca7aa4d039ab560ac2b06f29 = $(`<div id="html_52d004f2ca7aa4d039ab560ac2b06f29" style="width: 100.0%; height: 100.0%;">Siena</div>`)[0];
+                popup_1874072298547e83a0df0dcee8d53be3.setContent(html_52d004f2ca7aa4d039ab560ac2b06f29);
+            
+        
+
+        marker_0869b5a15301fa872a877233f137fb97.bindPopup(popup_1874072298547e83a0df0dcee8d53be3)
+        ;
+
+        
+    
+    
+            marker_0869b5a15301fa872a877233f137fb97.bindTooltip(
+                `<div>
+                     Siena
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0869b5a15301fa872a877233f137fb97.setIcon(icon_56ed4e1fa49dea0cf66f506e7dfdf4af);
+            
+    
+            var marker_1f11813e375cac246119cd1df8565d53 = L.marker(
+                [43.4673, 11.043],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_5a39b89521ccd7f80e2b8038b80c527b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_978e68dfe78a8a098082d475a8da5dc0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e5e6341a86df0bcc890ca1193240c58 = $(`<div id="html_5e5e6341a86df0bcc890ca1193240c58" style="width: 100.0%; height: 100.0%;">San Gimignano</div>`)[0];
+                popup_978e68dfe78a8a098082d475a8da5dc0.setContent(html_5e5e6341a86df0bcc890ca1193240c58);
+            
+        
+
+        marker_1f11813e375cac246119cd1df8565d53.bindPopup(popup_978e68dfe78a8a098082d475a8da5dc0)
+        ;
+
+        
+    
+    
+            marker_1f11813e375cac246119cd1df8565d53.bindTooltip(
+                `<div>
+                     San Gimignano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1f11813e375cac246119cd1df8565d53.setIcon(icon_5a39b89521ccd7f80e2b8038b80c527b);
+            
+    
+            var marker_433993aa06953b1815e63cbf35697ed6 = L.marker(
+                [43.4017, 10.8605],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_4121d82d40762a42bff1118608887bdc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3d247b2dbf5b1d09f303d9c6ff1ab3b6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_87616c1e7ee498c68b6036626c464b6e = $(`<div id="html_87616c1e7ee498c68b6036626c464b6e" style="width: 100.0%; height: 100.0%;">Volterra</div>`)[0];
+                popup_3d247b2dbf5b1d09f303d9c6ff1ab3b6.setContent(html_87616c1e7ee498c68b6036626c464b6e);
+            
+        
+
+        marker_433993aa06953b1815e63cbf35697ed6.bindPopup(popup_3d247b2dbf5b1d09f303d9c6ff1ab3b6)
+        ;
+
+        
+    
+    
+            marker_433993aa06953b1815e63cbf35697ed6.bindTooltip(
+                `<div>
+                     Volterra
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_433993aa06953b1815e63cbf35697ed6.setIcon(icon_4121d82d40762a42bff1118608887bdc);
+            
+    
+            var marker_84679311f2f6cfcdfdc114a0458e85bd = L.marker(
+                [43.2747, 11.9874],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_fb36fd29ab020275b838cd62d791b3a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47b9453892c9e478c06c5f05b35358c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5688b9c1a4091a4aa382546a1c1811fe = $(`<div id="html_5688b9c1a4091a4aa382546a1c1811fe" style="width: 100.0%; height: 100.0%;">Cortona</div>`)[0];
+                popup_47b9453892c9e478c06c5f05b35358c6.setContent(html_5688b9c1a4091a4aa382546a1c1811fe);
+            
+        
+
+        marker_84679311f2f6cfcdfdc114a0458e85bd.bindPopup(popup_47b9453892c9e478c06c5f05b35358c6)
+        ;
+
+        
+    
+    
+            marker_84679311f2f6cfcdfdc114a0458e85bd.bindTooltip(
+                `<div>
+                     Cortona
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_84679311f2f6cfcdfdc114a0458e85bd.setIcon(icon_fb36fd29ab020275b838cd62d791b3a3);
+            
+    
+            var marker_7cad0907d3adff71503dc9bb98071b7c = L.marker(
+                [40.628, 14.4849],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_a1d9cff3d0e4ec54dc3fbc52c2854adb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_29ab001976ede4d2e0a2db1e97b75a40 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c2eedd3e312e8a76575004fea9e03e6a = $(`<div id="html_c2eedd3e312e8a76575004fea9e03e6a" style="width: 100.0%; height: 100.0%;">Positano</div>`)[0];
+                popup_29ab001976ede4d2e0a2db1e97b75a40.setContent(html_c2eedd3e312e8a76575004fea9e03e6a);
+            
+        
+
+        marker_7cad0907d3adff71503dc9bb98071b7c.bindPopup(popup_29ab001976ede4d2e0a2db1e97b75a40)
+        ;
+
+        
+    
+    
+            marker_7cad0907d3adff71503dc9bb98071b7c.bindTooltip(
+                `<div>
+                     Positano
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7cad0907d3adff71503dc9bb98071b7c.setIcon(icon_a1d9cff3d0e4ec54dc3fbc52c2854adb);
+            
+    
+            var marker_f06c2a15e974f910de51708a0351add3 = L.marker(
+                [40.634, 14.602],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_2c6a579062abf54d252fe25b59e5072b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3011218e1d9056935fdb59f77e12fa43 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef98ba49bd99e5505a821fc97d53930d = $(`<div id="html_ef98ba49bd99e5505a821fc97d53930d" style="width: 100.0%; height: 100.0%;">Amalfi</div>`)[0];
+                popup_3011218e1d9056935fdb59f77e12fa43.setContent(html_ef98ba49bd99e5505a821fc97d53930d);
+            
+        
+
+        marker_f06c2a15e974f910de51708a0351add3.bindPopup(popup_3011218e1d9056935fdb59f77e12fa43)
+        ;
+
+        
+    
+    
+            marker_f06c2a15e974f910de51708a0351add3.bindTooltip(
+                `<div>
+                     Amalfi
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f06c2a15e974f910de51708a0351add3.setIcon(icon_2c6a579062abf54d252fe25b59e5072b);
+            
+    
+            var marker_9a58986f866d4d540b27f60c5d093873 = L.marker(
+                [40.6499, 14.6116],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_52784c0e740465ea764d1b64396aab28 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aa7c72dcdfe33e8d284cdf120701ed0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_997120fde11e465913033d262ffd783d = $(`<div id="html_997120fde11e465913033d262ffd783d" style="width: 100.0%; height: 100.0%;">Ravello</div>`)[0];
+                popup_aa7c72dcdfe33e8d284cdf120701ed0e.setContent(html_997120fde11e465913033d262ffd783d);
+            
+        
+
+        marker_9a58986f866d4d540b27f60c5d093873.bindPopup(popup_aa7c72dcdfe33e8d284cdf120701ed0e)
+        ;
+
+        
+    
+    
+            marker_9a58986f866d4d540b27f60c5d093873.bindTooltip(
+                `<div>
+                     Ravello
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9a58986f866d4d540b27f60c5d093873.setIcon(icon_52784c0e740465ea764d1b64396aab28);
+            
+    
+            var marker_52328baaf742050be7bfd27d22867fa9 = L.marker(
+                [40.5532, 14.2222],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_43113f726b8125c77ba3667642bc0acd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f1c0fd5c4ccfff0ef081ffb71a4a1584 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_48682a66f6dd6e06ae340c7248792bf6 = $(`<div id="html_48682a66f6dd6e06ae340c7248792bf6" style="width: 100.0%; height: 100.0%;">Capri</div>`)[0];
+                popup_f1c0fd5c4ccfff0ef081ffb71a4a1584.setContent(html_48682a66f6dd6e06ae340c7248792bf6);
+            
+        
+
+        marker_52328baaf742050be7bfd27d22867fa9.bindPopup(popup_f1c0fd5c4ccfff0ef081ffb71a4a1584)
+        ;
+
+        
+    
+    
+            marker_52328baaf742050be7bfd27d22867fa9.bindTooltip(
+                `<div>
+                     Capri
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_52328baaf742050be7bfd27d22867fa9.setIcon(icon_43113f726b8125c77ba3667642bc0acd);
+            
+    
+            var marker_0f7890e57d3033539f0f5c784fcdf1a2 = L.marker(
+                [40.746, 14.4989],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_1161e9c7fe246510a245c1d00390462c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_43d6e99a1b4b82aeefd7c00fecfcfa66 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dbcb50aeefa591a8407160fe4cffeded = $(`<div id="html_dbcb50aeefa591a8407160fe4cffeded" style="width: 100.0%; height: 100.0%;">Pompeii</div>`)[0];
+                popup_43d6e99a1b4b82aeefd7c00fecfcfa66.setContent(html_dbcb50aeefa591a8407160fe4cffeded);
+            
+        
+
+        marker_0f7890e57d3033539f0f5c784fcdf1a2.bindPopup(popup_43d6e99a1b4b82aeefd7c00fecfcfa66)
+        ;
+
+        
+    
+    
+            marker_0f7890e57d3033539f0f5c784fcdf1a2.bindTooltip(
+                `<div>
+                     Pompeii
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0f7890e57d3033539f0f5c784fcdf1a2.setIcon(icon_1161e9c7fe246510a245c1d00390462c);
+            
+    
+            var marker_0bc8687b70581c433c13d802d3dde50d = L.marker(
+                [41.8902, 12.4922],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_bebe54855416a2ad62098011f46f560b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15b8a4a44c0ecc211aa37d5b876212b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_889e966c972868c3e80b61887eb56263 = $(`<div id="html_889e966c972868c3e80b61887eb56263" style="width: 100.0%; height: 100.0%;">Colosseum</div>`)[0];
+                popup_15b8a4a44c0ecc211aa37d5b876212b8.setContent(html_889e966c972868c3e80b61887eb56263);
+            
+        
+
+        marker_0bc8687b70581c433c13d802d3dde50d.bindPopup(popup_15b8a4a44c0ecc211aa37d5b876212b8)
+        ;
+
+        
+    
+    
+            marker_0bc8687b70581c433c13d802d3dde50d.bindTooltip(
+                `<div>
+                     Colosseum
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0bc8687b70581c433c13d802d3dde50d.setIcon(icon_bebe54855416a2ad62098011f46f560b);
+            
+    
+            var marker_c0b9662df437ed6c263a580d4bc00570 = L.marker(
+                [41.8986, 12.4768],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_38dfa877f1b3fded29a34ea461504ec6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9462efbaa7c13c760aba23dac99428b7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_00431af85cf0b0f5b567dbffc168d48d = $(`<div id="html_00431af85cf0b0f5b567dbffc168d48d" style="width: 100.0%; height: 100.0%;">Pantheon</div>`)[0];
+                popup_9462efbaa7c13c760aba23dac99428b7.setContent(html_00431af85cf0b0f5b567dbffc168d48d);
+            
+        
+
+        marker_c0b9662df437ed6c263a580d4bc00570.bindPopup(popup_9462efbaa7c13c760aba23dac99428b7)
+        ;
+
+        
+    
+    
+            marker_c0b9662df437ed6c263a580d4bc00570.bindTooltip(
+                `<div>
+                     Pantheon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0b9662df437ed6c263a580d4bc00570.setIcon(icon_38dfa877f1b3fded29a34ea461504ec6);
+            
+    
+            var marker_d9b61d5e58faf47021d4532f403dce87 = L.marker(
+                [41.9009, 12.4833],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_ca19ce22e072487cf664dee376ef7426 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a2e38e1bf19d121a7dbe13abeff86322 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc8a2ff166a1e62a84fc2f95d76c2c06 = $(`<div id="html_fc8a2ff166a1e62a84fc2f95d76c2c06" style="width: 100.0%; height: 100.0%;">Trevi Fountain</div>`)[0];
+                popup_a2e38e1bf19d121a7dbe13abeff86322.setContent(html_fc8a2ff166a1e62a84fc2f95d76c2c06);
+            
+        
+
+        marker_d9b61d5e58faf47021d4532f403dce87.bindPopup(popup_a2e38e1bf19d121a7dbe13abeff86322)
+        ;
+
+        
+    
+    
+            marker_d9b61d5e58faf47021d4532f403dce87.bindTooltip(
+                `<div>
+                     Trevi Fountain
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d9b61d5e58faf47021d4532f403dce87.setIcon(icon_ca19ce22e072487cf664dee376ef7426);
+            
+    
+            var marker_67a83bf27de342381f9f924c1691dddc = L.marker(
+                [41.9065, 12.4536],
+                {
+}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            var icon_f963bd1d1a1b79339989e2e388f3206e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "orange",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_874d2f6fe23dd7dcd66c7db95e4b9352 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_084e19598407b6b9cd5127b815d518f0 = $(`<div id="html_084e19598407b6b9cd5127b815d518f0" style="width: 100.0%; height: 100.0%;">Vatican Museums / St Peter's</div>`)[0];
+                popup_874d2f6fe23dd7dcd66c7db95e4b9352.setContent(html_084e19598407b6b9cd5127b815d518f0);
+            
+        
+
+        marker_67a83bf27de342381f9f924c1691dddc.bindPopup(popup_874d2f6fe23dd7dcd66c7db95e4b9352)
+        ;
+
+        
+    
+    
+            marker_67a83bf27de342381f9f924c1691dddc.bindTooltip(
+                `<div>
+                     Vatican Museums / St Peter's
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_67a83bf27de342381f9f924c1691dddc.setIcon(icon_f963bd1d1a1b79339989e2e388f3206e);
+            
+    
+            var poly_line_bcfb54e8b7272299fb77cacefe414db4 = L.polyline(
+                [[43.4666, 11.4333], [43.3188, 11.3308], [43.4673, 11.043], [43.4017, 10.8605], [43.2747, 11.9874], [43.4666, 11.4333]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            poly_line_bcfb54e8b7272299fb77cacefe414db4.bindTooltip(
+                `<div>
+                     Scenic Tuscany Drive
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_ab1755d874fca3c5a6b3eb94f7e1b019 = L.polyline(
+                [[40.6329, 14.367], [40.628, 14.4849], [40.634, 14.602], [40.6499, 14.6116]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 4}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            poly_line_ab1755d874fca3c5a6b3eb94f7e1b019.bindTooltip(
+                `<div>
+                     Amalfi Coast Scenic Drive
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_0b24f9eef1a5a17cfe9b6518cf259b90 = L.polyline(
+                [[43.7687, 11.2531], [40.8518, 14.2727]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            poly_line_0b24f9eef1a5a17cfe9b6518cf259b90.bindTooltip(
+                `<div>
+                     Train: Florence → Naples
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_53d59e41270c6bdecf0518e7b8dcea68 = L.polyline(
+                [[40.8518, 14.2727], [41.901, 12.5018]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            poly_line_53d59e41270c6bdecf0518e7b8dcea68.bindTooltip(
+                `<div>
+                     Train: Naples → Rome
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var poly_line_d1ca4728318c24e67b51d4b03f3bb5d9 = L.polyline(
+                [[40.6329, 14.367], [40.5532, 14.2222]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_63903498d22a2bca504086f9d4c7825e);
+        
+    
+            poly_line_d1ca4728318c24e67b51d4b03f3bb5d9.bindTooltip(
+                `<div>
+                     Boat: Sorrento → Capri
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
